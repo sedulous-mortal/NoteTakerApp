@@ -10,6 +10,6 @@
 * API
 
 ## Here are examples of the app:
-![Image of Home page](Assets/NoteTakingApp.jpg)
-![Image of Note Taking Pg](Assets/NoteTakingApp2.jpg)
+![Image of Home page](Assets/NoteApp1.png)
+![Image of Note Taking Pg](Assets/NoteApp2.png)
 
