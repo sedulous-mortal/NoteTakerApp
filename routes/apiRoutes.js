@@ -1,5 +1,4 @@
-const router = require("express").app();
-const store = require("../db/store");
+const store = require("../server");
 
     // this code will execute when the server receives a GET request to api/notes
     router.get("/notes", function(req, res){
