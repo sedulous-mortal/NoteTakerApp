@@ -6,8 +6,10 @@ const htmlRoutes = require("./routes/htmlRoutes");
 const app = express();
 
 // Port
-const PORT = 3000;
-
+var PORT = process.env.PORT || 3000;
+app.listen(PORT, function() {
+    console.log("listening on port:",PORT)
+})
 // middleware
 app.use((req ,res,next)=>{
     console.log (req.url);

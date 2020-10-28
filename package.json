@@ -1,10 +1,11 @@
 {
   "name": "notetakerapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "* This app was created to be able to let the user take notes and be used to write, save, and delete your notes.  * This application will uses express backend and save and retrieve note data from a JSON file. ## The website was developed in: * HTML * Java * CSS * JSON * API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,6 @@
     "express": "^4.17.1",
     "mysql": "^2.18.1",
     "uuid": "^8.3.1"
-  }
+  },
+  "devDependencies": {}
 }
